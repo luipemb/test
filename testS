@@ -1,1 +1,8 @@
 vers = "1.0"
+
+
+loaderM1 = "gray"
+loaderM2 = "white"
+loaderW1 = "exaple"
+loaderW2 = "example 2"
+loaderW3 = "red"
