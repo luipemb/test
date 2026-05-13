@@ -6,3 +6,8 @@ loaderM2 = "white"
 loaderW1 = "exaple"
 loaderW2 = "example 2"
 loaderW3 = "red"
+
+
+local fl = fs.open("testfile")
+fl.write("hi")
+fl.close()
