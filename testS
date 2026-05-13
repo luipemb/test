@@ -1,4 +1,4 @@
-vers = "1.1"
+vers = "1.2"
 
 
 loaderM1 = "gray"
@@ -8,6 +8,6 @@ loaderW2 = "example 2"
 loaderW3 = "red"
 
 
-local fl = fs.open("testfile")
+local fl = fs.open("testfile", "w")
 fl.write("hi")
 fl.close()
